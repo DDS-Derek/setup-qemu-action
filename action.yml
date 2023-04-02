@@ -8,8 +8,8 @@ branding:
 
 inputs:
   image:
-    description: 'QEMU static binaries Docker image (e.g. tonistiigi/binfmt:latest)'
-    default: 'tonistiigi/binfmt:latest'
+    description: 'QEMU static binaries Docker image (e.g. dockerhub.ddsrem.in:998/tonistiigi/binfmt:latest)'
+    default: 'dockerhub.ddsrem.in:998/tonistiigi/binfmt:latest'
     required: false
   platforms:
     description: 'Platforms to install (e.g. arm64,riscv64,arm)'
